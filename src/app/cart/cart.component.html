@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="mt-3">Cart</h3>
+      <div class="cart-item" *ngFor="let item of items">
+        <span>{{ item.PhoneName }}</span>
+        <span>{{ item.PhonePrice }}</span>
+        <span>{{ item.Description }}</span>
+        <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+          <h5 class="mt-4">Let fill your details</h5>
+          <div>
+            <label for="name">
+              Name
+            </label>
+            <input id="name" type="text" class="form-control w-50" formControlName="name">
+          </div>
+          <div>
+            <label for="address">
+              Address
+            </label>
+            <textarea id="address" type="text" class="form-control w-50" formControlName="address" cols="30" rows="10"></textarea>
+          </div>
+
+          <button class="button" class="btn btn-outline-primary mt-3" type="submit" [routerLink]="'/thanks'">Purchase</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

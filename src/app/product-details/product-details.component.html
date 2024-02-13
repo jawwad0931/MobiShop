@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-secondary mt-3 fw-bolded">Mobile Details</h2>
+        <div *ngIf="product">
+          <div class="col-4">
+          <img [src]="product.ImageUrl" [alt]="product.PhoneName" height="300px" width="300px" class="product-image">
+          </div>
+          <h3 class="text-secondary mt-2">{{ product.PhoneName }}</h3>
+          <h4 class="text-secondary mt-2">Rs: {{ product.PhonePrice }}</h4>
+          <p class="text-secondary mt-2">{{ product.Description }}</p>
+          <button type="button" class="btn btn-outline-primary" [routerLink]="'/'">Back</button>
+          <button type="button" class="btn btn-outline-primary btn2" (click)="addToCart(product)">Buy</button>
+        </div>
+    </div>
+  </div>
+</div>
