@@ -8,7 +8,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { ReactiveFormsModule,FormsModule} from '@angular/forms';
 import { ThanksComponent } from './thanks/thanks.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { IndexComponent } from './index/index.component'
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component'
     ProductDetailsComponent,
     CartComponent,
     ThanksComponent,
-    FooterComponent
+    FooterComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
