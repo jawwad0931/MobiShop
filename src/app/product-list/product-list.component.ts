@@ -8,4 +8,6 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products:any = products;
+  // yahan maine variable aur initaializer dono ko same rakha hai
+  // Latestproducts:any = Latestproducts;
 }

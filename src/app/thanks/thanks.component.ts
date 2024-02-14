@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { products } from '../products';
 // import { products } from '../products';
 
 @Component({
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './thanks.component.css'
 })
 export class ThanksComponent {
-  // products:any = products;
+  products:any = products;
 }

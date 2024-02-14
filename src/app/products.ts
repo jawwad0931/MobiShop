@@ -7,7 +7,7 @@ export interface Product {
 }
 
 export const products = [
-    { Id: 1, PhoneName: "IPohneX", PhonePrice: 23000, Description: "This is very good mobile phone", ImageUrl: "assets/download.jpg" },
+    { Id: 1, PhoneName: "IPhoneX", PhonePrice: 23000, Description: "This is very good mobile phone", ImageUrl: "assets/download.jpg" },
     { "Id": 2, "PhoneName": "Samsung Galaxy S22", "PhonePrice": 999, "Description": "The latest flagship from Samsung with cutting-edge features.", "ImageUrl": "assets/samsung.jpg" },
     { "Id": 3, "PhoneName": "Google Pixel 7", "PhonePrice": 899, "Description": "Google's latest Pixel offering with exceptional camera capabilities.", "ImageUrl": "assets/googlepixel.webp" },
     { "Id": 4, "PhoneName": "iPhone 14", "PhonePrice": 1299, "Description": "Apple's newest iPhone featuring advanced technology and sleek design.", "ImageUrl": "assets/iphone14.jpg" },
@@ -20,3 +20,5 @@ export const products = [
     { "Id": 11, "PhoneName": "Nokia X100", "PhonePrice": 499, "Description": "Nokia's latest budget-friendly smartphone with reliable performance.", "ImageUrl": "assets/nokia.jpg" },
     { "Id": 12,"PhoneName": "Oppo Reno 3 Pro","PhonePrice": 499,"Description": "Oppo's Reno 3 Pro features a stunning design with a quad-camera setup and a vibrant AMOLED display.","ImageUrl": "assets/oppo.jpg"}
 ];
+
+
